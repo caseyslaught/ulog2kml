@@ -9,7 +9,7 @@ import argparse
 from datetime import datetime, timedelta
 import simplekml # pylint: disable=import-error
 
-from ulog import ULog
+from .ulog import ULog
 
 #pylint: disable=too-many-locals, invalid-name, consider-using-enumerate, too-many-arguments
 #pylint: disable=unused-variable
@@ -87,6 +87,3 @@ def _create_kml(ulog_filename, kml_filename, start_datetime):
 def _get_ge_datetime_string(datetime_obj):
     return datetime_obj.strftime('%Y-%m-%dT%H:%M:%SZ')
 
-
-if __name__ == "__main__":
-    main()
