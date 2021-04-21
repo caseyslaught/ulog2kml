@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="1">
+        <Style id="5">
+            <IconStyle id="6">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="7">
+                    <href>https://earth.google.com/images/kml-icons/track-directional/track-0.png</href>
+                </Icon>
+            </IconStyle>
+            <LineStyle id="8">
+                <color>99ffac59</color>
+                <colorMode>normal</colorMode>
+                <width>6</width>
+            </LineStyle>
+        </Style>
+        <Style id="9">
+            <IconStyle id="10">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="11">
+                    <href>https://earth.google.com/images/kml-icons/track-directional/track-0.png</href>
+                </Icon>
+            </IconStyle>
+            <LineStyle id="12">
+                <color>99ffac59</color>
+                <colorMode>normal</colorMode>
+                <width>8</width>
+            </LineStyle>
+        </Style>
+        <StyleMap id="4">
+            <Pair>
+                <key>normal</key>
+                <styleUrl>#5</styleUrl>
+            </Pair>
+            <Pair>
+                <key>highlight</key>
+                <styleUrl>#9</styleUrl>
+            </Pair>
+        </StyleMap>
+        <Placemark id="3">
+            <name>Flight Track</name>
+            <styleUrl>#4</styleUrl>
+            <gx:Track>
+                <when>2021-04-16T08:30:00Z</when>
+                <when>2021-04-16T08:30:42Z</when>
+                <when>2021-04-16T08:31:24Z</when>
+                <when>2021-04-16T08:32:06Z</when>
+                <when>2021-04-16T08:32:48Z</when>
+                <when>2021-04-16T08:33:30Z</when>
+                <when>2021-04-16T08:34:12Z</when>
+                <when>2021-04-16T08:34:54Z</when>
+                <when>2021-04-16T08:35:36Z</when>
+                <when>2021-04-16T08:36:19Z</when>
+                <when>2021-04-16T08:37:01Z</when>
+                <gx:coord>29.3752655 -1.3267014 1435.833</gx:coord>
+                <gx:coord>29.3752661 -1.3267001 1495.405</gx:coord>
+                <gx:coord>29.3750934 -1.320389 1513.565</gx:coord>
+                <gx:coord>29.3708599 -1.3150608 1522.479</gx:coord>
+                <gx:coord>29.3632773 -1.3150519 1524.609</gx:coord>
+                <gx:coord>29.3574398 -1.3210543 1530.996</gx:coord>
+                <gx:coord>29.3587553 -1.327634 1542.967</gx:coord>
+                <gx:coord>29.3656888 -1.3300346 1532.467</gx:coord>
+                <gx:coord>29.3726277 -1.3309324 1502.072</gx:coord>
+                <gx:coord>29.3752621 -1.3268784 1485.229</gx:coord>
+                <gx:coord>29.3752569 -1.3266966 1434.937</gx:coord>
+                <altitudeMode>absolute</altitudeMode>
+            </gx:Track>
+        </Placemark>
+    </Document>
+</kml>
