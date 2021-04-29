@@ -11,6 +11,8 @@ testing.py
 *.db
 *.sqlite
 *.sqlite3
+*.ulg
+*.kml
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

@@ -3,7 +3,7 @@ import sys
 
 from setuptools import setup
 
-version = '1.0.2'
+version = '1.0.7'
 
 long_description = open('README.md').read()
 
@@ -14,14 +14,12 @@ if sys.argv[-1] == 'publish':
 setup(
     name='ulog2kml',
     version=version,
-    author='Casey Slaught',
     description='A command line program for converting ULog files into time-aware KML files.',
     keywords='ulog kml drone',
     license='MIT',
     long_description=long_description,
     long_description_content_type='text/markdown',
     url='https://github.com/caseyslaught/ulog2kml',
-
     packages=['ulog2kml'],
     python_requires=">=3.5",
     install_requires=[
@@ -37,7 +35,7 @@ setup(
     ],
     entry_points = {
         'console_scripts': [
-            'ulog2kml=ulog2kml.ulog2kml:main',
+            'ulog_to_kml=ulog2kml.__main__:main',
         ],
     },
 )
